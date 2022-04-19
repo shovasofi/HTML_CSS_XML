@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Frameset</title>
+
+	
+</head>
+<frameset rows="20%,*">
+		<frame src="titulo.html">
+		
+		<frameset cols="40%, *" >
+			<frameset rows="60%,*">
+				<frame src="indice.html" name="indice">
+					
+				<frame src="editorial.html" name="editorial">	
+				</frameset>
+		
+			<frameset rows="80%,*">
+				<frame src="contenido.html" name="contenido">
+				<frame src="autor.html" name="autor">
+			</frameset>
+		</frameset>
+</frameset>
+	<h1>hola</h1>
+	<noframes>
+<body>
+Este documento tiene marcos y tu navegador no los
+soporta.
+
+
+</body>
+</noframes>
+
+</html>
